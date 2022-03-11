@@ -7,7 +7,8 @@
     "buildcss": "cleancss src/css/*.css -o dist/css/style.css",
     "buildjs": "mkdirp dist/js && uglifyjs src/js/*.js -o dist/js/main.js",
     "minifyimages": "imagemin src/images/* --out-dir=dist/images",
-    "copy:html": "cp src/*.html dist"
+    "copy:html": "cp src/*.html dist",
+    "build": " npm run buildcss && npm run buildjs && npm run minifyimages && npm run copy:html"
   },
   "repository": {
     "type": "git",

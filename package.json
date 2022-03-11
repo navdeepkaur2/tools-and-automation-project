@@ -4,7 +4,8 @@
   "description": "tools and automation project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "buildcss": "cleancss src/css/*.css -o dist/css/style.css"
+    
   },
   "repository": {
     "type": "git",

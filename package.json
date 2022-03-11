@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/navdeepkaur2/tools-and-automation-project/issues"
   },
-  "homepage": "https://github.com/navdeepkaur2/tools-and-automation-project#readme"
+  "homepage": "https://github.com/navdeepkaur2/tools-and-automation-project#readme",
+  "devDependencies": {
+    "clean-css-cli": "^5.5.2"
+  }
 }

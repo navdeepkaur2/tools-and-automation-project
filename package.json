@@ -6,8 +6,9 @@
   "scripts": {
     "buildcss": "cleancss src/css/*.css -o dist/css/style.css",
     "buildjs": "mkdir -p dist/js uglifyjs src/js/*.js -o  dist/js/main.js",
-    "minifyimages":"imagemin src/images/* --out-dir=dist/images"
-
+    "minifyimages":"imagemin src/images/* --out-dir=dist/images",
+    "copy:html":"cp src/*.html dist"
+    
   },
   "repository": {
     "type": "git",

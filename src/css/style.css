@@ -61,3 +61,18 @@ img
     background-color: rgb(106, 106, 255);
     text-align: center;
 }
+
+:root{
+    --primary:white;
+    --secondary: black;
+}
+
+body{
+    color:var(--secondary);
+    background: var(--primary);
+}
+
+.dark{
+    --primary:black;
+    --secondary: white;
+}

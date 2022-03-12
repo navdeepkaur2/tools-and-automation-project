@@ -18,3 +18,8 @@ bodyElement = document.getElementsByTagName('body')[0];
 bodyElement.addEventListener('mouseover',function(e){
   console.log('The content!')
 })
+
+function toggle(){
+  document.body.classList.toggle('dark');
+  }
+  
